@@ -36,6 +36,8 @@
 		"lowclass": "^8.0.0",
 		"lume": "^0.3.0-alpha.43",
 		"meteor-node-stubs": "^1.0.0",
+		"seroval": "~1.5.0",
+		"seroval-plugins": "~1.5.0",
 		"solid-js": "^1.0.0",
 		"three": ">=0.139.0"
 	},
