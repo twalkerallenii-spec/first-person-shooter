@@ -1,0 +1,7 @@
+node_modules
+.git
+.meteor/local
+*.log
+.vscode
+.idea
+.playwright-mcp

@@ -1,0 +1,14 @@
+# Render Blueprint — single-container Meteor + embedded MongoDB.
+# The Render service was created via API; this file documents the setup
+# and lets you redeploy from a Blueprint if you ever want to.
+services:
+  - type: web
+    name: lumecraft-fps
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      # ROOT_URL is set to the service's own URL after creation.
+      - key: ROOT_URL
+        sync: false
